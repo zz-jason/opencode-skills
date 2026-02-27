@@ -18,7 +18,7 @@ metadata:
 - You need a repeatable maintenance step for local environments.
 
 ## Inputs
-- `sudo_access` (optional): whether elevated permissions are required in this environment.
+
 
 ## Steps
 1. Run the upgrade command:

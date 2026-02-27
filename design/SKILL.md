@@ -10,7 +10,7 @@ metadata:
 # Design
 
 ## What I do
-- Draft a complete design document from the bundled template at `.agents/skills/design/DESIGN_TEMPLATE.md`.
+- Draft a complete design document from the bundled template at `DESIGN_TEMPLATE.md`.
 - Turn a feature request into a review-ready proposal with clear tradeoffs and open questions.
 
 ## When to use me
@@ -25,7 +25,7 @@ metadata:
 - `constraints` (optional): non-functional requirements, compatibility limits, or scope boundaries.
 
 ## Steps
-1. Read `.agents/skills/design/DESIGN_TEMPLATE.md` and preserve its section structure.
+1. Read `DESIGN_TEMPLATE.md` and preserve its section structure.
 2. Collect context: motivation, users, and concrete use cases.
 3. Fill each section with project-specific details:
    - `Summary`: one-paragraph proposal overview.
@@ -37,7 +37,7 @@ metadata:
 5. Emit the final markdown file at `output_path`.
 
 ## Output
-- A review-ready design document that follows `.agents/skills/design/DESIGN_TEMPLATE.md` exactly, with project-specific content filled in.
+- A review-ready design document that follows `DESIGN_TEMPLATE.md` exactly, with project-specific content filled in.
 
 ## Example Invocation
 ```text
@@ -45,6 +45,6 @@ skill({ name: "design" })
 ```
 
 ## Troubleshooting
-- Missing sections: re-open `.agents/skills/design/DESIGN_TEMPLATE.md` and ensure all headings are present.
+- Missing sections: re-open `DESIGN_TEMPLATE.md` and ensure all headings are present.
 - Low review quality: add concrete APIs, pseudocode, and failure cases in `Detailed Design`.
 - Scope creep: move uncertain items to `Unresolved Questions` and keep the core proposal minimal.

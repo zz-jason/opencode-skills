@@ -29,7 +29,7 @@ compatibility: opencode
    - `name`
    - `description`
 6. Only supported frontmatter keys should be used:
-   - `name`, `description`, `license`, `compatibility`, `metadata`
+   - `name`, `description`, `license`, `compatibility`, `metadata` (string-to-string map)
 
 ## Steps
 1. Validate `name` and `description` against the rules.
