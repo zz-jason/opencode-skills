@@ -18,6 +18,7 @@ git clone https://github.com/zz-jason/opencode-skills.git ~/.config/opencode/ski
 | `create-skill` | Scaffold a new OpenCode skill with valid naming, frontmatter, and reusable content. |
 | `design` | Write design documents using the bundled design template. |
 | `opencode-upgrade` | Upgrade OpenCode by running the official install script. |
+| `scheduled-task` | Schedule delayed or recurring background tasks by launching `opencode run` via cron/systemd/at, with list/cancel support. |
 
 ## Usage
 
