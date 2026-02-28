@@ -21,6 +21,7 @@ git clone https://github.com/zz-jason/opencode-skills.git ~/.config/opencode/ski
 | `agents-docs-init` | Initialize `AGENTS.md` and a minimal `.agents` knowledge base for agent collaboration. |
 | `agents-docs-refresh` | Refresh `.agents` docs to remove stale, incorrect, and duplicate content. |
 | `scheduled-task` | Schedule delayed or recurring background tasks by launching `opencode run` via cron/systemd/at, with list/cancel support. |
+| `xiaohongshu-search` | Search Xiaohongshu notes by keyword, time, and intent, then return structured note summaries and links. |
 
 ## Usage
 
