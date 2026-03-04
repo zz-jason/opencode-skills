@@ -13,14 +13,15 @@ git clone https://github.com/zz-jason/opencode-skills.git ~/.config/opencode/ski
 
 ## Available Skills
 
-| Skill Name | Description |
-|------------|-------------|
-| `create-skill` | Scaffold a new OpenCode skill with valid naming, frontmatter, and reusable content. |
-| `design` | Write design documents using the bundled design template. |
-| `opencode-upgrade` | Upgrade OpenCode by running the official install script. |
-| `agents-docs-init` | Initialize `AGENTS.md` and a minimal `.agents` knowledge base for agent collaboration. |
-| `agents-docs-refresh` | Refresh `.agents` docs to remove stale, incorrect, and duplicate content. |
-| `scheduled-task` | Schedule delayed or recurring background tasks by launching `opencode run` via cron/systemd/at, with list/cancel support. |
+| Skill Name                   | Description                                                                                                               |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `create-skill`               | Scaffold a new OpenCode skill with valid naming, frontmatter, and reusable content.                                       |
+| `design`                     | Write design documents using the bundled design template.                                                                 |
+| `opencode-upgrade`           | Upgrade OpenCode by running the official install script.                                                                  |
+| `agents-docs-init`           | Initialize `AGENTS.md` and a minimal `.agents` knowledge base for agent collaboration.                                    |
+| `agents-docs-refresh`        | Refresh `.agents` docs to remove stale, incorrect, and duplicate content.                                                 |
+| `scheduled-task`             | Schedule delayed or recurring background tasks by launching `opencode run` via cron/systemd/at, with list/cancel support. |
+| `hierarchical-orchestration` | Plan and execute complex work with a coarse worker DAG and adaptive sub-workers under strict budget and handoff controls. |
 
 ## Usage
 
