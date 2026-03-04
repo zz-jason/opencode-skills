@@ -2,7 +2,6 @@
 name: scheduled-task
 description: Schedule recurring or delayed tasks by launching background opencode run processes via cron/systemd/at.
 license: MIT
-compatibility: opencode
 metadata:
   audience: opencode-agents
   workflow: background-scheduling

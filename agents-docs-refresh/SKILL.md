@@ -1,7 +1,6 @@
 ---
 name: agents-docs-refresh
 description: Rewrite .agents knowledge docs to remove incorrect, outdated, and duplicate content.
-compatibility: opencode
 metadata:
   audience: project-maintainers
   workflow: knowledge-hygiene
