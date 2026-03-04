@@ -1,7 +1,6 @@
 ---
 name: design
 description: Write design documents using the bundled design template.
-compatibility: opencode
 metadata:
   audience: developers
   workflow: design-doc

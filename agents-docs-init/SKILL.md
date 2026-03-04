@@ -1,7 +1,6 @@
 ---
 name: agents-docs-init
 description: Initialize AGENTS.md and a minimal .agents knowledge base for agent collaboration.
-compatibility: opencode
 metadata:
   audience: project-maintainers
   workflow: agent-bootstrap

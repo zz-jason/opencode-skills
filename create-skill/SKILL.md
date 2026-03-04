@@ -1,7 +1,6 @@
 ---
 name: create-skill
 description: Scaffold a new OpenCode skill in .agents/skills with valid naming, frontmatter, and reusable content.
-compatibility: opencode
 ---
 
 # Create Skill

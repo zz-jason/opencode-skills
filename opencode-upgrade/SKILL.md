@@ -1,7 +1,6 @@
 ---
 name: opencode-upgrade
 description: Upgrade OpenCode by running the official install script.
-compatibility: opencode
 metadata:
   audience: developers
   workflow: maintenance
