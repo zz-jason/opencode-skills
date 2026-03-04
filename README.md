@@ -15,7 +15,9 @@ git clone https://github.com/zz-jason/opencode-skills.git ~/.agents/skills
 
 | Skill Name | Description |
 |------------|-------------|
-| `create-skill` | Scaffold a new skill with valid naming, frontmatter, and reusable content. |
+| `skill-create` | Scaffold a new skill with valid naming, frontmatter, and reusable content. |
+| `skill-update` | Improve an existing skill using real usage feedback, failures, and observed gaps. |
+| `skill-sync` | Sync all local skills from the canonical GitHub repository into `~/.agents/skills`. |
 | `design` | Write design documents using the bundled design template. |
 | `opencode-upgrade` | Run the official install script to perform tool upgrades. |
 | `agents-docs-init` | Initialize `AGENTS.md` and a minimal `.agents` knowledge base for agent collaboration. |
@@ -36,7 +38,7 @@ Agents can decide when to use a skill based on the skill description and current
 
 ## Contributing
 
-You can create new skills using the `create-skill` skill in this repository. Alternatively, manually create a directory with a `SKILL.md` file that includes the required frontmatter and sections.
+You can create new skills using `skill-create`, iteratively improve existing ones using `skill-update`, and update your local skill set from upstream with `skill-sync`. Alternatively, manually create a directory with a `SKILL.md` file that includes the required frontmatter and sections.
 
 ## License
 

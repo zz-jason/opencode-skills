@@ -1,21 +1,20 @@
 ---
-name: create-skill
-description: Scaffold a new OpenCode skill in .agents/skills with valid naming, frontmatter, and reusable content.
+name: skill-create
+description: Scaffold a new agent skill in .agents/skills with valid naming, frontmatter, and reusable content.
 ---
 
-# Create Skill
+# Skill Create
 
 ## What I do
 - Create a new skill folder under `.agents/skills/<name>/`.
 - Generate a valid `SKILL.md` with required YAML frontmatter.
-- Enforce OpenCode skill rules for naming and description length.
+- Enforce naming and description validation rules.
 - Provide a practical body template so the new skill is immediately usable.
 
 ## Inputs
 - `name` (required): skill name and directory name, for example `git-release`.
-- `description` (required): short summary used by the `skill` tool discovery list.
+- `description` (required): short summary used by skill discovery.
 - `license` (optional): frontmatter field.
-- `compatibility` (optional): frontmatter field, for example `opencode`.
 - `metadata` (optional): string-to-string map in frontmatter.
 - `base_path` (optional): defaults to `.agents/skills`.
 
@@ -28,14 +27,14 @@ description: Scaffold a new OpenCode skill in .agents/skills with valid naming, 
    - `name`
    - `description`
 6. Only supported frontmatter keys should be used:
-   - `name`, `description`, `license`, `compatibility`, `metadata` (string-to-string map)
+   - `name`, `description`, `license`, `metadata` (string-to-string map)
 
 ## Steps
 1. Validate `name` and `description` against the rules.
 2. Check `base_path/<name>/SKILL.md` does not already exist.
 3. Create directory `base_path/<name>/`.
 4. Write `SKILL.md` with valid frontmatter and clear usage instructions.
-5. Confirm the new skill appears in `<available_skills>` (after reload/new session if needed).
+5. Confirm the new skill appears in skill discovery (after reload/new session if needed).
 
 ## SKILL.md Template
 ```markdown
@@ -43,7 +42,6 @@ description: Scaffold a new OpenCode skill in .agents/skills with valid naming, 
 name: <skill-name>
 description: <one-line description>
 license: <optional>
-compatibility: <optional>
 metadata:
   audience: <optional>
   workflow: <optional>
@@ -77,5 +75,4 @@ skill({ name: "<skill-name>" })
 
 ## Troubleshooting
 - Skill not discovered: verify path is `.agents/skills/<name>/SKILL.md` and filename is uppercase.
-- Skill hidden: check permission settings for `skill` in `opencode.json`.
 - Load conflict: ensure skill names are unique across project and global skill locations.
